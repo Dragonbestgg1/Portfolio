@@ -4,3 +4,21 @@
     align-items: center;
     justify-content: flex-start;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    padding-right: 50px;
+    gap: 10px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    transition: color 0,3s ease;
+}
+.button:hover{
+    color: aqua;
+}

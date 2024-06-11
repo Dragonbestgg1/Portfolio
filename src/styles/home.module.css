@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    gap: 50px;
 }
+.headerMenu,
 .header{
     display: flex;
     flex-direction: row;
@@ -17,8 +19,536 @@
 .button{
     text-decoration: none;
     color: white;
-    transition: color 0,3s ease;
+    transition: color 0.3s ease;
 }
 .button:hover{
     color: aqua;
+}
+.who_I_am{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: 50%;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.h1{
+    color: white;
+    padding: 0px;
+    font-size: 20px;
+}
+.h1Name{
+    color: aqua;
+    padding: 0px;
+}
+.imgBox{
+    width: 50%;
+}
+.about_me{
+    background-color: rgb(72, 72, 72);
+    width: 100vw;
+    height: 35vh;
+    padding: 10px;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.h1Title{
+    color: aqua;
+    padding: 0px;
+    padding: 10px;
+    padding-right: 30px;
+}
+.desc{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.desc_txt{
+    width: 50%;
+    line-height: 30px;
+    word-spacing: 3px;
+    padding: 15px;
+    word-break: normal;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+.my_skills{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.skillsTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h1Skills{
+    color: aqua;
+    padding: 0px;
+    padding: 10px;
+    padding-right: 50px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+.languages{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.frameworks{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.skillTitle{
+    color: aqua;
+    font-size: 20px;
+}
+.skill{
+    font-size: 16px;
+    color: white;
+}
+.education{
+    background-color: rgb(72, 72, 72);
+    width: 100vw;
+    height: 45vh;
+    padding: 10px;
+}
+.education_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.h1Education{
+    color: aqua;
+}
+.desc_edu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.desc_edu_box{
+    width: 20vw;
+    height: 80%;
+    border: 3px solid rgb(19, 19, 19);
+    padding: 10px;
+}
+.h1Edu{
+    font-size: 18px;
+    color: white;
+    line-height: 35px;
+    word-spacing: 3px;
+}
+.project_list{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+.projectTitle{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1Projects{
+    color: aqua;
+}
+.projectManage{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.project_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+.projectH1{
+    color: aqua;
+    font-size: 18px;
+}
+.projectNames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.buttonProject{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.buttonProject:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.manageBox{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.modal{
+    width: 80vw;
+    height: 50vh;
+    margin-left: 130px;
+    margin-top: 140px;
+    background-color: rgb(19, 19, 19);
+    padding: 20px;
+    padding-left: 30px;
+    padding-left: 30px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    border-radius: 30px;
+}
+.modalH1{
+    color: aqua;
+    font-size: 28px;
+    cursor: default;
+}
+.modalP{
+    color: white;
+    font-size: 22px;
+    cursor: default;
+}
+.modalHref{
+    color: white;
+    text-decoration: none;
+    width: 18%;
+    transition: color 0.3s ease;
+}
+.modalHref:hover{
+    color: aqua;
+}
+.work_exp{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(72, 72, 72);
+}
+.workTitle{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 30px;
+}
+.workH1{
+    color: aqua;
+}
+.descWork{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.descH1{
+    padding-left: 30px;
+    width: 40%;
+    color: white;
+    word-break: normal;
+    font-size: 18px;
+    text-align: left;
+}
+.reviews{
+    width: 100vw;
+}
+.reviewTitle{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.reviewH1{
+    color: aqua;
+}
+.reviewManage{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+.reviewBox{
+    border: 3px solid white;
+    display: flex;
+    width: 15vw;
+    height: 30vh;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.reviewName{
+    color: aqua;
+    font-size: 24px;
+}
+.reviewDesc{
+    color: white;
+    font-size: 18px;
+    word-break: normal;
+}
+.contact_me{
+    background-color: rgb(72, 72, 72);
+    width: 100vw;
+    height: 60vh;
+}
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px, 10px, 10px, 0px;
+}
+.contactH1{
+    color: aqua;
+}
+.personal{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+.directEmail{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: rgb(19, 19, 19);
+}
+.descPers{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+.descPersT{
+    color: aqua;
+    font-size: 18px;
+    text-align: left;
+}
+.directTitle{
+    color: aqua;
+    font-size: 18px;
+}
+.contactManage{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactFrom{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    gap: 25px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.formBut{
+    background: none;
+    border: none;
+    color: aqua;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: bolder;
+}
+.formBut:hover{
+    color: white;
+}
+.formInput{
+    border-radius: 30px;
+    padding: 10px;
+    text-align: left;
+    height: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.formInput:hover{
+    opacity: 1;
+}
+.formInput:focus{
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 106vw;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0px;
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .headerMenu{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .who_I_am{
+        height: 40vh;
+    }
+    .name{
+        align-items: center;
+    }
+    .about_me{
+        height: 110vh;
+        width: 106vw;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .my_skills{
+        flex-direction: column;
+    }
+    .education{
+        height: 180vh;
+        width: 106vw;
+    }
+    .desc_edu_box{
+        width: 35vw;
+        margin-left: 35px;
+    }
+    .modal{
+        position: fixed;
+        right: 27px;
+        bottom: 50px;
+        height: 80vh;
+    }
+    .work_exp{
+        height: 70vh;
+        width: 106vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .workTitle{
+        width: 100%;
+        justify-content: center;
+    }
+    .descWork{
+        align-items: center;
+        justify-content: center;
+    }
+    .desc_edu{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .reviewBox{
+        width: 30vw;
+        height: 100%;
+    }
+    .contact_me{
+        display: flex;
+        height: 110vh;
+        width: 106vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .contactManage{
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .directEmail{
+        width: 70%;
+    }
+    .h1Skills{
+        padding-right: 0px;
+    }
+    .skills{
+        flex-direction: column;
+        width: 40%;
+    }
+    .frameworks,
+    .languages{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .reviewManage,
+    .manageBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .personal{
+        margin-right: 70px;
+    }
 }

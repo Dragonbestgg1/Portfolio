@@ -19,3 +19,14 @@ html{
 h1{
   cursor: default;
 }
+h2{
+  cursor: default;
+}
+html{
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 600px) {
+  html{
+    width: 100vw;
+  }
+}

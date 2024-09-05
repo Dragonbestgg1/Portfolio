@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from "react";
+import React, { useState, useEffect } from "react";
 import style from "../styles/home.module.css";
 import Modal from "react-modal";
 
@@ -367,27 +367,31 @@ function Home() {
                 </div>
                 <div className={`${style.contactManage}`}>
                     <div className={`${style.personal}`}>
-                        <h1 className={`${style.descPersT}`}>
-                            Personal:
-                        </h1>
-                        <h1 className={`${style.descPers}`}>
-                            Email: ipb21.e.berzons@vtdt.edu.lv
-                        </h1>
-                        <h1 className={`${style.descPers}`}>
-                            Phone: 26328855
-                        </h1>
-                        <h1 className={`${style.descPersT}`}>
-                            Socials:
-                        </h1>
-                        <h1 className={`${style.descPers}`}>
-                            IG: Dragonbestgg1
-                        </h1>
-                        <h1 className={`${style.descPers}`}>
-                            FB: Edmunds Berzons
-                        </h1>
-                        <h1 className={`${style.descPers}`}>
-                            DC: dragonbestgg1
-                        </h1>
+                        <div>
+                            <h1 className={`${style.descPersT}`}>
+                                Personal:
+                            </h1>
+                            <h1 className={`${style.descPers}`}>
+                                Email: ipb21.e.berzons@vtdt.edu.lv
+                            </h1>
+                            <h1 className={`${style.descPers}`}>
+                                Phone: 26328855
+                            </h1>
+                        </div>
+                        <div>
+                            <h1 className={`${style.descPersT}`}>
+                                Socials:
+                            </h1>
+                            <h1 className={`${style.descPers}`}>
+                                IG: Dragonbestgg1
+                            </h1>
+                            <h1 className={`${style.descPers}`}>
+                                FB: Edmunds Berzons
+                            </h1>
+                            <h1 className={`${style.descPers}`}>
+                                DC: dragonbestgg1
+                            </h1>
+                        </div>
                     </div>
                     {/* <div className={`${style.directEmail}`}>
                         <h1 className={`${style.directTitle}`}>

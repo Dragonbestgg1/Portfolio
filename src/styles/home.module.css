@@ -368,7 +368,8 @@
 .personal{
     width: 40%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 50px;
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 70px;

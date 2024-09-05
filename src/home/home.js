@@ -177,7 +177,7 @@ function Home() {
                 <div className={`${style.desc_edu}`}>
                     <div className={`${style.desc_edu_box}`}>
                         <h1 className={`${style.h1Edu}`}>
-                            I have finished 3rd year in Vidzeme technology and design vocational school. In which I had the change to learn PHP, HTML, CSS, JS and SQL.
+                            I have finished 3rd year in Vidzeme technology and design vocational school. In which I had the chance to learn PHP, HTML, CSS, JS and SQL.
                         </h1>
                     </div>
                     <div className={`${style.desc_edu_box}`}>

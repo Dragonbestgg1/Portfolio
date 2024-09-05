@@ -389,7 +389,7 @@ function Home() {
                             DC: dragonbestgg1
                         </h1>
                     </div>
-                    <div className={`${style.directEmail}`}>
+                    {/* <div className={`${style.directEmail}`}>
                         <h1 className={`${style.directTitle}`}>
                             Send me E-mail directly
                         </h1>
@@ -399,7 +399,7 @@ function Home() {
                             <button className={`${style.formBut}`} type="submit">Send</button>
                         </form>
                         <p>{status}</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div >

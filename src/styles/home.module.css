@@ -439,14 +439,6 @@
 .formInput:focus{
     opacity: 1;
 }
-.fixing{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 85vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 @media only screen and (max-width: 600px) {
     .header{
         width: 106vw;

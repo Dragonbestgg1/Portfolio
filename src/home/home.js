@@ -148,9 +148,6 @@ function Home() {
                         <h2 className={`${style.skill}`}>
                             CSS
                         </h2>
-                        <h2 className={`${style.skill}`}>
-                            Python
-                        </h2>
                     </div>
                     <div className={`${style.frameworks}`}>
                         <h2 className={`${style.skill}`}>

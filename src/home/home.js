@@ -309,12 +309,12 @@ function Home() {
                         <button className={`${style.buttonProject}`}
                             onClick={() =>
                                 openModal(
-                                    'Wheater App',
-                                    'Wheater App project, which was made by me and one other person (Ginca1 on Github). I was making API requests and providing output data, while my partner was making front-end.',
+                                    'Weater App',
+                                    'Weater App project, which was made by me and one other person (Ginca1 on Github). I was making API requests and providing output data, while my partner was making front-end.',
                                     'https://github.com/KrievinsT/forecast_app'
                                 )}
                         >
-                            Wheater App
+                            Weater App
                         </button>
                     </div>
                 </div>
